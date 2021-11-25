@@ -1,0 +1,84 @@
+//variables
+$primary: #9356dc;
+$secondary: #ff79da;
+$tertiary: #99e2d0;
+$colorheadcontain: #eaeaea;
+$colornav: #f6f6f6;
+$heartcolor: white;
+$policetext: Roboto, sans-serif;
+$logotitle: Shrikhand, sans-serif;
+//fonctions
+@for $i from 0 to 9 {
+  .delay-#{$i} {
+    animation-delay: #{$i/10}s;
+  }
+}
+//mixins
+@mixin bodystyle {
+  margin: 0;
+  font-family: $policetext;
+  scroll-behavior: smooth;
+}
+@mixin sizecontain {
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
+}
+@mixin header {
+  padding: 1rem;
+  box-shadow: 0 0 0.5rem rgb(0 0 0.25);
+  position: relative;
+  z-index: 1000;
+}
+@mixin accueil {
+  position: absolute;
+  left: 2rem;
+  width: 2rem;
+  height: 2rem;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: black;
+}
+@mixin imgmainsize {
+  max-width: 100%;
+  max-height: 32rem;
+  width: 100%;
+  object-fit: cover;
+}
+@mixin menusize {
+  margin-top: -4rem;
+  border-radius: 2rem 2rem 0 0;
+  background-color: $colornav;
+  position: relative;
+  z-index: 1;
+}
+@mixin love {
+  transition-duration: 0.25s;
+  background-color: $colornav;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  mix-blend-mode: lighten;
+}
+@mixin btn {
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+  border: transparent 0px solid;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  background-color: black;
+}
