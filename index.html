@@ -22,8 +22,11 @@
       crossorigin="anonymous"
     ></script>
     <title>Accueil</title>
-    <meta name="title" content="Accueil- ohmyfood!">
-    <meta name="description" content="Ohmyfood! est une entreprise de commande de repas en ligne.Notre concept permet aux utilisateurs de composer leur propre menu et réduire ainsi leur temps d'attente dans les restaurants.">
+    <meta name="title" content="Accueil- ohmyfood!" />
+    <meta
+      name="description"
+      content="Ohmyfood! est une entreprise de commande de repas en ligne.Notre concept permet aux utilisateurs de composer leur propre menu et réduire ainsi leur temps d'attente dans les restaurants."
+    />
   </head>
 
   <body>
@@ -39,10 +42,10 @@
       <h1 class="header__logo">ohmyfood</h1>
     </header>
     <main>
-      <section class="local">
+      <div class="local">
         <i class="fas fa-map-marker-alt local__icon"></i>
         <span class="local__text">Paris, Belleville</span>
-      </section>
+      </div>
       <section class="go">
         <h2 class="go__title">Réservez le menu qui vous convient</h2>
         <p class="go__subtitle">
@@ -73,7 +76,7 @@
         <div class="contain">
           <h2 class="restaurant__title">Restaurant</h2>
           <div class="cards">
-            <a class="card" href="La palette du goût.html">
+            <a class="card" href="Lapalettedugoût.html">
               <img
                 src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
                 alt="Resatautant la palette du goût "
@@ -85,16 +88,21 @@
                   <h3 class="card__title">La palette du goût</h3>
                   <span class="card__subtitle">Ménilmontant</span>
                 </div>
-                <button class="menu__btn">
-                  <i class="fa-2x far fa-heart far menu__love menu__love--nobg"></i>
-                  <i class="fa-2x far fa-heart fas menu__love menu__love--bg"></i>
-                </button>
+                <div class="card__btn menu__btn">
+                  <i
+                    class="fa-2x far fa-heart far menu__love menu__love--nobg"
+                  ></i>
+                  <i
+                    class="fa-2x far fa-heart fas menu__love menu__love--bg"
+                  ></i>
+                </div>
               </footer>
             </a>
-            <a class="card" href="/La note enchantee.html">
+
+            <a class="card" href="Lanoteenchantee.html">
               <img
                 src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                alt="Resatautant la palette du goût "
+                alt="Resatautant la note enchantée"
                 class="card__img"
               />
               <span class="card__badge">Nouveau</span>
@@ -103,16 +111,21 @@
                   <h3 class="card__title">La note enchantée</h3>
                   <span class="card__subtitle">Charonne</span>
                 </div>
-                <button class="menu__btn">
-                  <i class="fa-2x far fa-heart far menu__love menu__love--nobg"></i>
-                  <i class="fa-2x far fa-heart fas menu__love menu__love--bg"></i>
-                </button>
+                <div class="card__btn menu__btn">
+                  <i
+                    class="fa-2x far fa-heart far menu__love menu__love--nobg"
+                  ></i>
+                  <i
+                    class="fa-2x far fa-heart fas menu__love menu__love--bg"
+                  ></i>
+                </div>
               </footer>
             </a>
-            <a class="card" href="/A la française.html">
+
+            <a class="card" href="Alafrançaise.html">
               <img
                 src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                alt="Resatautant la palette du goût "
+                alt="Resatautant À la française"
                 class="card__img"
               />
               <span class="card__badge">Nouveau</span>
@@ -121,57 +134,70 @@
                   <h3 class="card__title">À la française</h3>
                   <span class="card__subtitle">Cité Rouge</span>
                 </div>
-                <button class="menu__btn">
-                  <i class="fa-2x far fa-heart far menu__love menu__love--nobg"></i>
-                  <i class="fa-2x far fa-heart fas menu__love menu__love--bg"></i>
-                </button>
+                <div class="card__btn menu__btn">
+                  <i
+                    class="fa-2x far fa-heart far menu__love menu__love--nobg"
+                  ></i>
+                  <i
+                    class="fa-2x far fa-heart fas menu__love menu__love--bg"
+                  ></i>
+                </div>
               </footer>
             </a>
-            <a class="card" href="/A la française.html">
+
+            <a class="card" href="Ledélicedessens.html">
               <img
                 src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                alt="Resatautant la palette du goût "
+                alt="Resatautant le délice des sens"
                 class="card__img"
               />
+
               <span class="card__badge">Nouveau</span>
               <footer class="card__footer">
                 <div class="card__content">
                   <h3 class="card__title">Le délice des sens</h3>
                   <span class="card__subtitle">Folie-Méricourt</span>
                 </div>
-                <button class="menu__btn">
-                  <i class="fa-2x far fa-heart far menu__love menu__love--nobg"></i>
-                  <i class="fa-2x far fa-heart fas menu__love menu__love--bg"></i>
-                </button>
-            </footer>
-          </a>
-         </div>
-       </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="contain">
-      <span class="footer__logo">ohmyfood</span>
-      <ul class="footer__list">
-        <li class="footer__listelt">
-          <a class="footer__link" href="#">
-            <i class="fas fa-utensils fas footer__icon"></i>
-            Proposer un restaurant
-          </a>
-        </li>
-        <li class="footer__listelt">
-          <a class="footer__link" href="#">
-            <i class="fas fa-hands-helping fas footer__icon"></i>
-            Devenir partenaire
-          </a>
-        </li>
-        <li class="footer__listelt">
-          <a class="footer__link" href="#">Mentions Légales</a>
-        </li>
-        <li class="footer__listelt">
-          <a class="footer__link" href="mailto:votrenom@bidule.com">Contact</a>
-        </li>
-      </ul>
+                <div class="card__btn menu__btn">
+                  <i
+                    class="fa-2x far fa-heart far menu__love menu__love--nobg"
+                  ></i>
+                  <i
+                    class="fa-2x far fa-heart fas menu__love menu__love--bg"
+                  ></i>
+                </div>
+              </footer>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="contain">
+        <span class="footer__logo">ohmyfood</span>
+        <ul class="footer__list">
+          <li class="footer__listelt">
+            <a class="footer__link" href="#">
+              <i class="fas fa-utensils fas footer__icon"></i>
+              Proposer un restaurant
+            </a>
+          </li>
+          <li class="footer__listelt">
+            <a class="footer__link" href="#">
+              <i class="fas fa-hands-helping fas footer__icon"></i>
+              Devenir partenaire
+            </a>
+          </li>
+          <li class="footer__listelt">
+            <a class="footer__link" href="#">Mentions Légales</a>
+          </li>
+          <li class="footer__listelt">
+            <a class="footer__link" href="mailto:votrenom@bidule.com"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
