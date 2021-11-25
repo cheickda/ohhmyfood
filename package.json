@@ -1,0 +1,13 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "scripts": {
+    "sass": "dart-sass/sass --watch ./sass/main.scss:.public/css/style.css",
+    "prefix": "./Users/Moi/Desktop/OpenClassrooms/Projets/Ohmyfood/style.css--use autoprefixer -d ./public/css/prefixed/"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserlist": "last 4 versions"
+}
