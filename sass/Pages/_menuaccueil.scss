@@ -141,7 +141,7 @@
   &__wrapicon {
     width: 1.6rem;
     height: 1.6rem;
-    background-color: white;
+    background-color: $heartcolor;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,7 +190,6 @@
   top: 0;
   background-color: hsla(0, 0%, 100%, 0.9);
   animation: loader 0.01s;
-
   animation-delay: 1.75s;
   animation-fill-mode: both;
   z-index: 10000;
@@ -258,7 +257,7 @@
     font-weight: 500;
     font-size: 1.1rem;
     border-radius: 100px;
-    color: white;
+    color: $heartcolor;
     background-color: rgb(104, 104, 104);
     background-image: linear-gradient(
       0deg,
@@ -269,10 +268,8 @@
     transition-duration: 0.25s;
     box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
   }
-
   &:active {
     background-color: #fff;
-    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
   }
 }
 .guide {
@@ -315,10 +312,9 @@
       width: 1.5rem;
       height: 1.5rem;
       border-radius: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
+      display: grid;
+      place-items: center;
+      color: $colornav;
       position: absolute;
       left: -0.75rem;
     }
@@ -331,8 +327,11 @@
     font-weight: bold;
   }
 }
+.fa-store {
+  color: $primary;
+}
 .restaurant {
-  background-color: #f6f6f6;
+  background-color: $colornav;
   padding: 2rem 1rem;
 }
 .cards {

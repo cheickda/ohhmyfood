@@ -395,7 +395,6 @@ html {
 }
 .go:active {
   background-color: #fff;
-  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 }
 
 .guide {
@@ -444,10 +443,9 @@ html {
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+  display: grid;
+  place-items: center;
+  color: #f6f6f6;
   position: absolute;
   left: -0.75rem;
 }
@@ -457,6 +455,10 @@ html {
 }
 .guide .text {
   font-weight: bold;
+}
+
+.fa-store {
+  color: #9356dc;
 }
 
 .restaurant {
