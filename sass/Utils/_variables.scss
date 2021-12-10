@@ -5,6 +5,7 @@ $tertiary: #99e2d0;
 $colorheadcontain: #eaeaea;
 $colornav: #f6f6f6;
 $heartcolor: white;
+$colorlogo: #fff;
 $policetext: Roboto, sans-serif;
 $logotitle: Shrikhand, sans-serif;
 //fonctions
@@ -41,7 +42,7 @@ $logotitle: Shrikhand, sans-serif;
   justify-content: center;
   transform: translateY(-50%);
   font-size: 1.2rem;
-  color: black;
+  color: #000000;
 }
 @mixin imgmainsize {
   max-width: 100%;
